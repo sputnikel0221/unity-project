@@ -13,7 +13,7 @@ public class Forever_MoveH : MonoBehaviour
         this.transform.Translate(speed/50, 0, 0); // 수평 이동한다
     }
 
-    void private void Update() {
+    void Update() {
         this.transform.Translate(speed/50, 0, 0);
     }
 }
