@@ -48,7 +48,7 @@ Rigidbody2D rbody;
     
 
     void FixedUpdate() {
-        rbody.velocity = new Vector2(vx/50, vy/50);
+        rbody.velocity = new Vector2(vx, vy);
         this.GetComponent<SpriteRenderer>().flipX = leftflag;
         vx = 0;
         vy = 0;

@@ -239,7 +239,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3ee32442dfcccf469d52d7cc85345a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 30
+  speed: 2
 --- !u!212 &1011760109
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -343,7 +343,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 4
+  m_Constraints: 0
 --- !u!1 &1414424988
 GameObject:
   m_ObjectHideFlags: 0
