@@ -18,7 +18,7 @@ Rigidbody2D rbody;
     void Start() {
         //이 스크립트가 적용된 객체에서 Component를 가져오는데, <Rigidbody2D>라는 component를 가져와라 그리고 rbody에 저장한다.
         rbody = GetComponent<Rigidbody2D>();
-        rbody.gravityScale = 0;
+        rbody.gravityScale = 1;
         rbody.constraints = RigidbodyConstraints2D.FreezeRotation;
         //다른 rigidbody 설정도 수동 설정이 가능하다.
         rbody.sleepMode = RigidbodySleepMode2D.StartAwake;

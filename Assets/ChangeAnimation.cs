@@ -12,7 +12,7 @@ public class ChangeAnimation : MonoBehaviour
     string nowMode = "";
 
     private void Start() {
-        nowMode = upAni;
+        nowMode = downAni;
     }
     
     private void Update() {
